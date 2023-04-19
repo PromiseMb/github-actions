@@ -10,11 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1681881295,,"wq"
+|2,0,1681884301,,"wq"
+:q!
+|2,0,1681884010,,"q!"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1681884000,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,16 +32,54 @@
 # Registers:
 
 # File marks:
-'0  14  15  ~/.github/simple.yml
-|4,48,14,15,1681881295,"~/.github/simple.yml"
+'0  11  29  ~/workflows/simple.yml
+|4,48,11,29,1681884301,"~/workflows/simple.yml"
+'1  8  0  ~/simple.yml
+|4,49,8,0,1681884010,"~/simple.yml"
+'2  14  15  ~/.github/simple.yml
+|4,50,14,15,1681881295,"~/.github/simple.yml"
 
 # Jumplist (newest first):
+-'  11  29  ~/workflows/simple.yml
+|4,39,11,29,1681884301,"~/workflows/simple.yml"
+-'  1  0  ~/workflows/simple.yml
+|4,39,1,0,1681884072,"~/workflows/simple.yml"
+-'  8  0  ~/simple.yml
+|4,39,8,0,1681884010,"~/simple.yml"
+-'  8  0  ~/simple.yml
+|4,39,8,0,1681884010,"~/simple.yml"
+-'  14  15  ~/.github/simple.yml
+|4,39,14,15,1681881295,"~/.github/simple.yml"
+-'  14  15  ~/.github/simple.yml
+|4,39,14,15,1681881295,"~/.github/simple.yml"
+-'  14  15  ~/.github/simple.yml
+|4,39,14,15,1681881295,"~/.github/simple.yml"
 -'  14  15  ~/.github/simple.yml
 |4,39,14,15,1681881295,"~/.github/simple.yml"
 -'  1  0  ~/.github/simple.yml
 |4,39,1,0,1681881286,"~/.github/simple.yml"
+-'  1  0  ~/.github/simple.yml
+|4,39,1,0,1681881286,"~/.github/simple.yml"
+-'  1  0  ~/.github/simple.yml
+|4,39,1,0,1681881286,"~/.github/simple.yml"
+-'  1  0  ~/.github/simple.yml
+|4,39,1,0,1681881286,"~/.github/simple.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/workflows/simple.yml
+	*	1681884296	0
+	"	11	29
+	^	11	30
+	.	11	29
+	+	14	44
+	+	19	21
+	+	15	4
+	+	19	6
+	+	15	5
+	+	19	6
+	+	18	35
+	+	11	29
 
 > ~/.github/simple.yml
 	*	1681881294	0
